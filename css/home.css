@@ -1,0 +1,420 @@
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*================================================================================================================================================= HEADER =======*/
+
+header{
+	background-color: #eaba2a;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+	height: 60px;
+	width: 100%;
+	margin-top: 0px;
+	position: sticky;
+	top: 0px;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+}
+
+.menutel{display: none;}
+
+nav a{
+	text-decoration: none;
+	height: 60px;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	line-height: 2.2;
+}
+nav a:hover{
+	color: #D89C23;
+	background-color: #2f2f2f;
+	border-bottom: 2px solid gold;
+}
+
+#bouton1{
+	font-family: Rubik Marker Hatch;
+	color: white;
+	font-size: 3em;
+	line-height: 1.3;
+	width: 40%;
+	text-align: left;
+}
+#bouton1:hover{
+	color: #D89C23;
+	background-color: transparent;
+	border-bottom: none;
+}
+
+#bouton2{
+	width: 15%;
+}
+#bouton2:hover + .sous{display: block;}
+
+#bouton3{
+	width: 15%;
+}
+@media screen and (max-width: 1332px){
+	#bouton3{
+		line-height: 1.1;
+	}}
+
+#bouton4{
+	width: 15%;
+}
+
+#bouton5{
+	width: 15%;
+}
+
+.sous{
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 62px;
+	left: 40%;
+	list-style-type: none;
+	font-size: 1em;
+	line-height: 2;
+	margin: 0px;
+	padding: 10px 20px 10px 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 2px #ccc;
+}
+.sous:hover{display: block;}
+
+.sousa{
+	font-size: 1.1em;
+	line-height: 1.1;
+}
+.sousa:hover{
+	background-color: transparent;
+	color: gray;
+	border-bottom: none;
+}
+
+@media screen and (max-width: 950px){
+	#bouton1{display: none;}
+	#bouton2{display: none;}
+	#bouton3{display: none;}
+	#bouton4{display: none;}
+	#bouton5{display: none;}
+}
+
+
+
+
+
+
+/*============================================================ MENU TELEPHONE =======*/
+
+
+
+
+
+.soustel{
+	display: none;
+	position: absolute;
+	top: 60px;
+	list-style-type: none;
+	margin: 0px 0px 0px -7px;
+	padding: 0px 20px 0px 20px;
+	font-size: 0.8em;
+	background-color: white;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 2px #ccc;
+}
+.sousatel:hover{
+	background-color: transparent;
+	border-bottom: none;
+	color: gray;
+}
+
+.souslitel:hover{
+	background-color: transparent;
+	border-bottom: none;
+	color: gray;
+}
+
+.sousatel{
+	font-size: 1.2em;
+	margin-left: 12px;
+	line-height: 1.6;
+}
+
+label{
+	position: absolute;
+	width: 42px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	border: 3px solid rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 6px;
+	margin-left: 7px;
+	margin-right: 7px;	
+	color: rgba(0, 0, 0, 0.5);	
+	background-color: rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+#bouton6{
+	display: none;	
+}
+#bouton6:checked + .soustel{display: block;}
+
+#bouton7{
+	position: absolute;
+	right: 0px;
+	height: 60px;
+	font-family: Rubik Marker Hatch;
+	color: white;
+	font-size: 35px;
+	line-height: 1.7;
+	text-align: right;
+	padding-right: 15px;
+	z-index: 1;
+}
+#bouton7:hover{
+	background-color: transparent;
+	border-bottom: none;
+}
+
+@media screen and (min-width: 950px){
+	label{display: none;}
+	#bouton7{display: none;}
+}
+
+
+
+
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*=================================================================================================================================================== MAIN =======*/
+
+
+
+
+.bullehome{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(48, 48, 48, 0.5);
+}
+
+.gridconteneur1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+}
+
+.bulle1{
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.bulle2{
+	background-image: url("../pages/sommaire/image/illu-chart.jpg") ;
+	background-size: cover;
+	background-position: center;
+	height: 210px;
+}
+
+.ulbulle1{
+	list-style-type: none;
+	padding: 10px 20px 0px 20px;
+	margin: 0px;
+	line-height: 1.8;
+	font-size: 1.4em;
+	font-family: overlock;
+}
+
+.abulle1{
+	text-decoration: none;
+	color: black;
+}
+.abulle1:hover{
+	color: gray;
+}
+
+.bandeau1{
+	display: block;
+	width: 100%;
+	height: 70px;
+	background-color: #eaba2a;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+}
+
+.bandeau2{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	padding: 0px 10px 0px 10px ;
+	background-color: #eaba2a;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+}
+
+.titrebulle1{
+	font-family: alkatra;
+	font-weight: 700;
+	margin-left: 10px;
+	font-size: 1.8em;	
+	line-height: 2;
+	color: white;
+	text-decoration: underline;
+}
+.titrebulle1:hover{color: #D89C23}
+
+.titrebulle2{
+	font-family: alkatra;
+	font-weight: 700;
+	font-size: 1.6em;	
+	line-height: 1.7;
+	color: white;
+	text-decoration: underline;
+}
+.titrebulle2:hover{color: #D89C23}
+
+.titrebulle3{
+	font-family: alkatra;
+	font-weight: 700;
+	font-size: 1.6em;	
+	line-height: 1.7;
+	color: white;
+	text-decoration: underline;
+}
+
+.txtbulle2{
+	display: inline;
+	margin: auto;
+	text-align: center;
+	font-family: overlock;
+	font-size: 1em;
+}
+
+.cntbulle3{
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (max-width: 1760px){
+	.bandeau2{height: 80px}}
+
+
+@media screen and (max-width: 950px){
+	.sectionpc{display: none;}}
+
+
+
+
+
+/*============================================================ MENU TELEPHONE =======*/
+
+
+
+
+
+.bandeau1tel{
+	display: block;
+	width: 100%;
+	height: 50px;
+	background-color: #eaba2a;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+}
+
+.ulbulle1tel{
+	list-style-type: none;
+	padding: 10px 20px 0px 20px;
+	margin: 0px;
+	line-height: 1.8;
+	font-size: 1em;
+	font-family: overlock;
+}
+
+.titrebulle1tel{
+	font-family: alkatra;
+	font-weight: 700;
+	margin-left: 10px;
+	font-size: 1.5em;	
+	line-height: 1.8;
+	color: white;
+	text-decoration: underline;
+}
+
+.abulle1tel{
+	text-decoration: none;
+	color: black;
+}
+
+.bandeau2tel1{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	padding: 0px 10px 0px 10px ;
+	background-color: #eaba2a;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+}
+
+.bandeau2tel2{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 80px;
+	padding: 0px 10px 0px 10px ;
+	background-color: #eaba2a;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+}
+
+.titrebulle2tel{
+	font-family: alkatra;
+	font-weight: 700;
+	font-size: 1.4em;	
+	line-height: 1.7;
+	color: white;
+	text-decoration: underline;
+}
+
+.txtbulle2tel{
+	display: inline;
+	margin: auto;
+	text-align: center;
+	font-family: overlock;
+	font-size: 0.9em;
+}
+
+@media screen and (max-width: 662px){
+	.querry1{display: none;}}
+
+@media screen and (min-width: 664px){
+	.querry2{display: none;}}
+
+
+@media screen and (min-width: 950px){
+	.sectiontel{display: none;}}
+
+
+
+
+
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*================================================================================================================================================= FOOTER =======*/
+
