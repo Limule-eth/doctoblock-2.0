@@ -1,0 +1,248 @@
+ul{
+margin-top: 0px;
+margin-bottom: 0px;	
+}
+
+/*================================== bin1 */
+#bullebin1{min-height: 353px;}
+
+.imgbin1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 343px;
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	.imgbin1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin2 */
+#bullebin2{min-height: 260px;}
+
+.imgbin2{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 250px;
+	width: 100%;
+	max-width: 412px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	.imgbin2{
+		float: none;
+		display: block;
+}}
+
+/*================================== bin3 */
+#bullebin3{min-height: 260px;}
+
+.imgbin3{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 250px;
+	width: 100%;
+	max-width: 505px;
+	height: auto;
+}
+@media screen and (max-width: 850px){
+	.imgbin3{
+		float: none;
+		display: block;
+}}
+
+/*================================== bin4 */
+#bullebin4{min-height: 130px;}
+
+.imgbin4{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 120px;
+	width: 100%;
+	max-width: 551px;
+	height: auto;
+}
+@media screen and (max-width: 930px){
+	.imgbin4{
+		float: none;
+		display: block;
+}}
+
+/*================================== bin5 */
+#bullebin5{min-height: 410px;}
+
+.imgbin5{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 400px;
+	width: 100%;
+	max-width: 316px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin5{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin6 */
+#bullebin6{min-height: 290px;}
+
+.imgbin6{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 280px;
+	width: 100%;
+	max-width: 316px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin6{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin7 */
+#bullebin7{min-height: 290px;}
+
+.imgbin7{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 280px;
+	width: 100%;
+	max-width: 364px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	.imgbin7{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin8 */
+#bullebin8{min-height: 190px;}
+
+.imgbin8{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 180px;
+	width: 100%;
+	max-width: 560px;
+	height: auto;
+}
+@media screen and (max-width: 780px){
+	.imgbin8{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin9 */
+#bullebin9{min-height: 210px;}
+
+.imgbin9{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 200px;
+	width: 100%;
+	max-width: 686px;
+	height: auto;
+}
+@media screen and (max-width: 915px){
+	.imgbin9{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin10 */
+#bullebin10{min-height: 817px;}
+
+.imgbin10{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 807px;
+	width: 100%;
+	max-width: 309px;
+	height: auto;
+}
+@media screen and (max-width: 500px){
+	.imgbin10{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin11 */
+.imgbin11{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	width: 100%;
+	max-width: 1919px;
+	height: auto;
+}
+@media screen and (max-width: 1900px){
+	.imgbin11{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin12 */
+#bullebin12{min-height: 373px;}
+
+.imgbin12{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 363px;
+	width: 100%;
+	max-width: 312px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin12{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin13 */
+#bullebin13{min-height: 390px;}
+
+.imgbin13{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 380px;
+	width: 100%;
+	max-width: 306px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin13{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+
+
