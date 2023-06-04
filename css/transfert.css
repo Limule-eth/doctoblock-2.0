@@ -1,0 +1,163 @@
+
+/*================================== bin14 */
+.imgbin14{
+	border-radius: 5px;
+	float: none;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 1475px;
+	height: auto;
+}
+
+/*================================== bin15 */
+#bullebin15{min-height: 127px;}
+
+.imgbin15{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 117px;
+	width: 100%;
+	max-width: 317px;
+	height: auto;
+}
+@media screen and (max-width: 650px){
+	.imgbin15{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin16 */
+#bullebin16{min-height: px;}
+
+.imgbin16{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 500px;
+	width: 100%;
+	max-width: 596px;
+	height: auto;
+}
+@media screen and (max-width: 900px){
+	.imgbin16{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin17 */
+#bullebin17{min-height: 150px;}
+
+.imgbin17{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 140px;
+	width: 100%;
+	max-width: 814px;
+	height: auto;
+}
+@media screen and (max-width: 1280px){
+	.imgbin17{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin18 */
+#bullebin18{min-height: 87px;}
+
+.imgbin18{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 77px;
+	width: 100%;
+	max-width: 164px;
+	height: auto;
+}
+@media screen and (max-width: 350px){
+	.imgbin18{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin19 */
+#bullebin19{min-height: 407px;}
+
+.imgbin19{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 397px;
+	width: 100%;
+	max-width: 705px;
+	height: auto;
+}
+@media screen and (max-width: 1130px){
+	.imgbin19{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin20 */
+#bullebin20{min-height: 309px;}
+
+.imgbin20{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 299px;
+	width: 100%;
+	max-width: 319px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin20{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin21 */
+#bullebin21{min-height: 295px;}
+
+.imgbin21{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 285px;
+	width: 100%;
+	max-width: 321px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin21{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin22 */
+#bullebin22{min-height: 341px;}
+
+.imgbin22{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 331px;
+	width: 100%;
+	max-width: 313px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgbin22{
+		float: none;
+		display: block;
+		margin: auto;
+}}

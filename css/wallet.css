@@ -1,0 +1,258 @@
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#illu2{
+	float: right;
+}
+@media screen and (max-width: 500px){
+	#illu2{
+		height: 150px;
+		width: auto;
+	}}
+@media screen and (max-width: 400px){
+	#illu2{
+		height: 80px;
+		width: auto;
+	}}
+@media screen and (max-width: 290px){
+	#illu2{display: none;}}
+
+#imgmeta1{
+	float: right;
+}
+
+
+/*================================== ledger0 */
+#bulleledger0{min-height: 310px;}
+
+.imgledger0{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 300px;
+	width: 100%;
+	max-width: 327px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgledger0{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== ledger1 */
+#bulleledger1{min-height: 410px;}
+@media screen and (max-width: 700px){
+	#bulleledger1{min-height: 280px}}
+
+.imgledger1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 400px;
+	width: 100%;
+	max-width: 773px;
+	height: auto;
+}
+@media screen and (max-width: 1200px){
+	.imgledger1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta2 */
+#bullemeta2{min-height: 310px;}
+
+.imgmeta2{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 300px;
+	width: 100%;
+	max-width: 327px;
+	height: auto;
+}
+@media screen and (max-width: 650px){
+	.imgmeta2{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta3 */
+#bullemeta3{min-height: 530px;}
+
+.imgmeta3{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 520px;
+	width: 100%;
+	max-width: 314px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgmeta3{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta4 */
+#bullemeta4{min-height: 329px;}
+
+.imgmeta4{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 319px;
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgmeta4{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta5 */
+#bullemeta5{min-height: 316px;}
+
+.imgmeta5{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 306px;
+	width: 100%;
+	max-width: 325px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgmeta5{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta6 */
+#bullemeta6{min-height: 236px;}
+
+.imgmeta6{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 226px;
+	width: 100%;
+	max-width: 405px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	.imgmeta6{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta7 */
+#bullemeta7{min-height: 356px;}
+
+.imgmeta7{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 346px;
+	width: 100%;
+	max-width: 526px;
+	height: auto;
+}
+@media screen and (max-width: 800px){
+	.imgmeta7{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta8 */
+#bullemeta8{min-height: 551px;}
+
+.imgmeta8{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 541px;
+	width: 100%;
+	max-width: 315px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgmeta8{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== meta9 */
+#bullemeta9{min-height: 214px;}
+
+.imgmeta9{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 204px;
+	width: 100%;
+	max-width: 314px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgmeta9{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== xdefi1 */
+#bullexdefi1{min-height: 598px;}
+
+.imgxdefi1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 588px;
+	width: 100%;
+	max-width: 392px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgxdefi1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== xdefi2 */
+#bullexdefi2{min-height: 330px;}
+
+.imgxdefi2{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 320px;
+	width: 100%;
+	max-width: 401px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	.imgxdefi2{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+

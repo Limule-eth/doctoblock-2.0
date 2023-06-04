@@ -1,0 +1,232 @@
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*================================================================================================================================================= HEADER =======*/
+
+header{
+	background-color: #eaba2a;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+	height: 60px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+}
+
+.menutel{display: none;}
+
+nav a{
+	text-decoration: none;
+	height: 60px;
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	line-height: 2.2;
+}
+nav a:hover{
+	color: #D89C23;
+	background-color: #2f2f2f;
+	border-bottom: 2px solid gold;
+}
+
+#bouton1{
+	font-family: Rubik Marker Hatch;
+	color: white;
+	font-size: 3em;
+	line-height: 1.3;
+	width: 40%;
+	text-align: left;
+}
+#bouton1:hover{
+	color: #D89C23;
+	background-color: transparent;
+	border-bottom: none;
+}
+
+#bouton2{
+	width: 15%;
+}
+#bouton2:hover + .sous{display: block;}
+
+#bouton3{
+	width: 15%;
+}
+@media screen and (max-width: 1332px){
+	#bouton3{
+		line-height: 1.1;
+	}}
+
+#bouton4{
+	width: 15%;
+}
+
+#bouton5{
+	width: 15%;
+}
+
+.sous{
+	display: none;
+	background-color: white;
+	position: absolute;
+	top: 62px;
+	left: 40%;
+	list-style-type: none;
+	font-size: 1em;
+	line-height: 2;
+	margin: 0px;
+	padding: 10px 20px 10px 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 2px #ccc;
+}
+.sous:hover{display: block;}
+
+.sousa{
+	font-size: 1.1em;
+	line-height: 1.1;
+}
+.sousa:hover{
+	background-color: transparent;
+	color: gray;
+	border-bottom: none;
+}
+
+@media screen and (max-width: 950px){
+	#bouton1{display: none;}
+	#bouton2{display: none;}
+	#bouton3{display: none;}
+	#bouton4{display: none;}
+	#bouton5{display: none;}
+}
+
+
+
+
+
+
+/*============================================================================================= MENU TELEPHONE =======*/
+
+
+
+
+
+.soustel{
+	display: none;
+	position: absolute;
+	top: 60px;
+	list-style-type: none;
+	margin: 0px 0px 0px -7px;
+	padding: 0px 20px 0px 20px;
+	font-size: 0.8em;
+	background-color: white;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 2px #ccc;
+}
+.sousatel:hover{
+	background-color: transparent;
+	border-bottom: none;
+	color: gray;
+}
+
+.souslitel:hover{
+	background-color: transparent;
+	border-bottom: none;
+	color: gray;
+}
+
+.sousatel{
+	font-size: 1.2em;
+	margin-left: 12px;
+	line-height: 1.6;
+}
+
+label{
+	position: absolute;
+	width: 42px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	border: 3px solid rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	margin: 6px;
+	margin-left: 7px;
+	margin-right: 7px;	
+	color: rgba(0, 0, 0, 0.5);	
+	background-color: rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+#bouton6{
+	display: none;	
+}
+#bouton6:checked + .soustel{display: block;}
+
+#bouton7{
+	position: absolute;
+	right: 0px;
+	height: 60px;
+	font-family: Rubik Marker Hatch;
+	color: white;
+	font-size: 35px;
+	line-height: 1.7;
+	text-align: right;
+	padding-right: 15px;
+	z-index: 1;
+}
+#bouton7:hover{
+	background-color: transparent;
+	border-bottom: none;
+}
+
+@media screen and (min-width: 950px){
+	label{display: none;}
+	#bouton7{display: none;}
+}
+
+
+
+
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*=================================================================================================================================================== ARBO =======*/
+
+aside ul{
+	display: inline-block;
+	position: absolute;
+	top: 180px;
+	width: 18.5%;
+	margin: 0px;
+	padding: 0px 1% 0px 0.5%;
+	list-style-type: none;
+	font-size: 1.2em;
+	line-height: 2;
+}
+@media screen and (max-width: 1400px){
+	aside ul{display: none;}}
+
+
+aside ul li a{
+	text-decoration: none;
+	color: black;
+}
+aside ul li a:hover{color: #D89C23}
+
+
+
+/*================================================================================================================================================================*/
+/*================================================================================================================================================================*/
+/*================================================================================================================================================= FOOTER =======*/
+
+
+
+
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #eaba2a;
+	border-top: 2px solid gold;
+	position: absolute; bottom: 0px;
+}

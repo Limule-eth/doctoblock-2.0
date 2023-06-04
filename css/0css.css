@@ -35,6 +35,13 @@ h2{
 @media screen and (max-width: 1400px){h2{font-size: 1.4em}}
 @media screen and (max-width: 950px){h2{font-size: 1.2em}}
 
+h3{
+	font-size: 1.3em;
+	font-family: overlock;
+	font-weight: 400;
+	text-decoration: underline;
+}
+@media screen and (max-width: 950px){h3{font-size: 1.2em}}
 
 
 /*===================================================== BULLES =======*/
@@ -90,6 +97,7 @@ h2{
 .v{color: #55A533}
 
 .italic{font-style: italic;}
+.souligne{text-decoration: underline;}
 .gras{font-weight: bold;}
 
 .hypertexte{
@@ -102,6 +110,13 @@ h2{
 	color: #b57836;
 }
 .lex:hover{color: #D89C23}
+
+.etape{
+	font-family: overlock;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #D89C23;
+}
 
 
 
