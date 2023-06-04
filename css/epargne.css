@@ -1,0 +1,114 @@
+/*================================== bin23 */
+#bullebin23{min-height: 344px;}
+
+#imgbin23{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 334px;
+	width: 100%;
+	max-width: 444px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	#imgbin23{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin24 */
+#bullebin24{min-height: 131px;}
+
+#imgbin24{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 121px;
+	width: 100%;
+	max-width: 1157px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgbin24{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin25 */
+#bullebin25{min-height: 238px;}
+
+#imgbin25{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 228px;
+	width: 100%;
+	max-width: 1085px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgbin25{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin26 */
+#bullebin26{min-height: 510px;}
+
+#imgbin26{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 500px;
+	width: 100%;
+	max-width: 737px;
+	height: auto;
+}
+@media screen and (max-width: 1650px){
+	#imgbin26{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin27 */
+#bullebin27{min-height: 477px;}
+
+#imgbin27{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 467px;
+	width: 100%;
+	max-width: 355px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	#imgbin27{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== bin28 */
+#bullebin28{min-height: 192px;}
+
+#imgbin28{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 182px;
+	width: 100%;
+	max-width: 1629px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgbin28{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+

@@ -1,0 +1,59 @@
+/*================================== nft1 */
+#imgnft1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 271px;
+	width: 100%;
+	max-width: 388px;
+	height: auto;
+}
+@media screen and (max-width: 1400px){
+	#imgnft1{
+		height: 200px;
+		max-width: 286px;
+}}
+@media screen and (max-width: 950px){
+	#imgnft1{
+		height: 120px;
+		max-width: 171px;
+}}
+@media screen and (max-width: 400px){
+	#imgnft1{
+		height: 60px;
+		max-width: 85px;
+}}
+
+/*================================== nft2 */
+#imgnft2{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 97px;
+	width: 100%;
+	max-width: 1097px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgnft2{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== invman */
+#invman{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 300px;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
+@media screen and (max-width: 550px){
+	#invman{
+		float: none;
+		display: block;
+		margin: auto;
+}}

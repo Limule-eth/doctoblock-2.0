@@ -1,0 +1,92 @@
+/*================================== pan1 */
+#bullepan1{min-height: 217px;}
+
+#imgpan1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 207px;
+	width: 100%;
+	max-width: 1777px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgpan1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== pan2 */
+#bullepan2{min-height: 538px;}
+
+#imgpan2{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 528px;
+	width: 100%;
+	max-width: 311px;
+	height: auto;
+}
+@media screen and (max-width: 600px){
+	#imgpan2{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== pan3 */
+#imgpan3{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 238px;
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+}
+@media screen and (max-width: 1930px){
+	#imgpan3{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== pan4 */
+#bullepan4{min-height: 101px;}
+
+#imgpan4{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 91px;
+	width: 100%;
+	max-width: 321px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	#imgpan4{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== uni1 */
+#bulleuni1{min-height: 290px;}
+
+#imguni1{
+	border-radius: 5px;
+	float: right;
+	margin: 5px;
+	height: 280px;
+	width: 100%;
+	max-width: 380px;
+	height: auto;
+}
+@media screen and (max-width: 700px){
+	#imguni1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
