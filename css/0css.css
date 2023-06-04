@@ -94,7 +94,7 @@ h3{
 
 .j{color: #D89C23}
 .r{color: #BD4949}
-.v{color: #55A533}
+.v{color: #006600}
 
 .italic{font-style: italic;}
 .souligne{text-decoration: underline;}
@@ -118,6 +118,13 @@ h3{
 	color: #D89C23;
 }
 
+.source{
+	display: block;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.right{text-align: right;}
 
 
 

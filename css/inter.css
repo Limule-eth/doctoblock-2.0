@@ -1,0 +1,669 @@
+.listeul{
+	list-style-type: none;
+	padding-left: 3%;
+}
+
+.listeol{
+	padding-left: 3%;
+}
+
+/*================================== tv1 */
+#imgtv1{
+	float: right;
+	border-radius: 5px;
+	margin: 5px;
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+}
+
+#bulletv1{min-height: 539px;}
+
+@media screen and (max-width: 1150px){
+	#imgtv1{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv2 */
+#imgtv2{
+	float: right;
+	border-radius: 5px;
+	height: 285px;
+	margin: 5px;
+	max-width: 355px;
+	width: 100%;
+	height: auto;
+}
+
+#bulletv2{min-height: 295px;}
+
+@media screen and (max-width: 600px){
+	#imgtv2{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv3 */
+#imgtv3{
+	float: right;
+	border-radius: 5px;
+	height: 290px;
+	margin: 5px;
+	max-width: 462px;
+	width: 100%;
+	height: auto;
+}
+
+#bulletv3{min-height: 300px;}
+
+@media screen and (max-width: 650px){
+	#imgtv3{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv4 */
+#imgtv4{
+	float: right;
+	border-radius: 5px;
+	height: 211px;
+	margin: 5px;
+	max-width: 339px;
+	width: 100%;
+	height: auto;
+}
+
+#bulletv4{min-height: 221px;}
+
+@media screen and (max-width: 600px){
+	#imgtv4{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv5 */
+#imgtv5{
+	float: right;
+	border-radius: 5px;
+	height: 400px;
+	margin: 5px;
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+#bulletv5{min-height: 410px;}
+
+@media screen and (max-width: 850px){
+	#imgtv5{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv6 et tv7 */
+#imgtv6{
+	float: right;
+	border-radius: 5px;
+	height: 43px;
+	margin: 5px;
+	width: 100%;
+	max-width: 682px;
+	height: auto;
+}
+
+#imgtv7{
+	float: right;
+	border-radius: 5px;
+	height: 227px;
+	margin: 5px;
+	width: 100%;
+	max-width: 163px;
+	height: auto;
+}
+
+#bulletv6-7{min-height: 290px;}
+
+@media screen and (max-width: 770px){
+	#imgtv6{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 350px){
+	#imgtv7{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv8 et tv9 */
+#imgtv8{
+	float: right;
+	border-radius: 5px;
+	height: 41px;
+	margin: 5px;
+	max-width: 676px;
+	width: 100%;
+	height: auto;
+}
+
+#imgtv9{
+	float: right;
+	border-radius: 5px;
+	height: 183px;
+	margin: 5px;
+	width: 100%;
+	max-width: 168px;
+	height: auto;
+}
+
+#bulletv8-9{min-height: 244px;}
+
+@media screen and (max-width: 770px){
+	#imgtv8{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 350px){
+	#imgtv9{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+
+/*================================== tv10 */
+#imgtv10{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1320px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv10{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv11 et tv12 */
+#imgtv11{
+	float: left;
+	border-radius: 5px;
+	height: 167px;
+	margin: 5px;
+	max-width: 279px;
+	width: 100%;
+	height: auto;
+}
+
+#imgtv12{
+	float: right;
+	border-radius: 5px;
+	height: 335px;
+	margin: 5px;
+	width: 100%;
+	max-width: 758px;
+	height: auto;
+}
+
+#bulletv11-12{min-height: 345px;}
+
+@media screen and (max-width: 1820px){
+	#imgtv11{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1820px){
+	#imgtv12{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv13 et tv14 */
+#imgtv13{
+	float: left;
+	border-radius: 5px;
+	height: 146px;
+	margin: 5px;
+	max-width: 334px;
+	width: 100%;
+	height: auto;
+}
+
+#imgtv14{
+	float: right;
+	border-radius: 5px;
+	height: 239px;
+	margin: 5px;
+	width: 100%;
+	max-width: 528px;
+	height: auto;
+}
+
+#bulletv13-14{min-height: 249px;}
+
+@media screen and (max-width: 1525px){
+	#imgtv13{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1525px){
+	#imgtv14{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv15 et tv16 */
+#imgtv15{
+	float: left;
+	border-radius: 5px;
+	height: 377px;
+	margin: 5px;
+	max-width: 325px;
+	width: 100%;
+	height: auto;
+}
+
+#imgtv16{
+	float: right;
+	border-radius: 5px;
+	height: 330px;
+	margin: 5px;
+	width: 100%;
+	max-width: 576px;
+	height: auto;
+}
+
+#bulletv15-16{min-height: 387px;}
+
+@media screen and (max-width: 1590px){
+	#imgtv15{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1590px){
+	#imgtv16{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv17 */
+#imgtv17{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1111px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv17{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv18 */
+#imgtv18{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1144px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv18{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv19 */
+
+#imgtv19{
+	float: right;
+	border-radius: 5px;
+	height: 300px;
+	margin: 5px;
+	width: 100%;
+	max-width: 493px;
+	height: auto;
+}
+
+#bulletv19{min-height: 310px;}
+
+@media screen and (max-width: 770px){
+	#imgtv19{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv20 */
+
+#imgtv20{
+	float: right;
+	border-radius: 5px;
+	height: 48px;
+	margin: 5px;
+	width: 100%;
+	max-width: 743px;
+	height: auto;
+}
+
+#bulletv20{min-height: 58px;}
+
+@media screen and (max-width: 1270px){
+	#imgtv20{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv21 */
+
+#imgtv21{
+	float: right;
+	border-radius: 5px;
+	height: 380px;
+	margin: 5px;
+	width: 100%;
+	max-width: 830px;
+	height: auto;
+}
+
+#bulletv21{min-height: 390px;}
+
+@media screen and (max-width: 1270px){
+	#imgtv21{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1270px){
+	#bulletv21{min-height: 100px}}
+
+/*================================== tv22 */
+
+#imgtv22{
+	float: right;
+	border-radius: 5px;
+	height: 151px;
+	margin: 5px;
+	width: 100%;
+	max-width: 259px;
+	height: auto;
+}
+
+#bulletv22{min-height: 161px;}
+
+@media screen and (max-width: 500px){
+	#imgtv22{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv23 et tv24 */
+#imgtv23{
+	float: right;
+	border-radius: 5px;
+	height: 26px;
+	margin: 5px;
+	max-width: 124px;
+	width: 100%;
+	height: auto;
+}
+
+#imgtv24{
+	float: right;
+	border-radius: 5px;
+	height: 460px;
+	margin: 5px;
+	width: 100%;
+	max-width: 160px;
+	height: auto;
+}
+
+#bulletv23-24{min-height: 517px;}
+
+@media screen and (max-width: 350px){
+	#imgtv24{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv25 */
+
+#imgtv25{
+	float: right;
+	border-radius: 5px;
+	height: 172px;
+	margin: 5px;
+	width: 100%;
+	max-width: 671px;
+	height: auto;
+}
+
+#bulletv25{
+	min-height: 182px;
+	width: 100%;
+}
+
+@media screen and (max-width: 1120px){
+	#imgtv25{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv26 */
+
+#imgtv26{
+	float: right;
+	border-radius: 5px;
+	height: 208px;
+	margin: 5px;
+	width: 100%;
+	max-width: 430px;
+	height: auto;
+}
+
+#bulletv26{min-height: 218px;}
+
+@media screen and (max-width: 700px){
+	#imgtv26{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv27 */
+
+#imgtv27{
+	float: right;
+	border-radius: 5px;
+	height: 539px;
+	margin: 5px;
+	width: 100%;
+	max-width: 702px;
+	height: auto;
+}
+
+#bulletv27{min-height: 549px;}
+
+@media screen and (max-width: 1100px){
+	#imgtv27{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1100px){
+	#bulletv27{min-height: 100px}}
+
+/*================================== tv28 */
+
+#imgtv28{
+	float: right;
+	border-radius: 5px;
+	height: 223px;
+	margin: 5px;
+	width: 100%;
+	max-width: 747px;
+	height: auto;
+}
+
+#bulletv28{min-height: 233px;}
+
+@media screen and (max-width: 1600px){
+	#imgtv28{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv29 */
+
+#imgtv29{
+	float: right;
+	border-radius: 5px;
+	height: 399px;
+	margin: 5px;
+	width: 100%;
+	max-width: 877px;
+	height: auto;
+}
+
+#bulletv29{min-height: 409px;}
+
+@media screen and (max-width: 1825px){
+	#imgtv29{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+@media screen and (max-width: 1825px){
+	#bulletv29{min-height: 100px}}
+
+/*================================== tv30 */
+#imgtv30{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1901px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv30{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv31 */
+#imgtv31{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1358px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv31{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv32 */
+#imgtv32{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1414px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv32{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv33 */
+#imgtv33{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1902px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv33{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv34 */
+#imgtv34{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1762px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv34{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== tv35 */
+#imgtv35{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1313px;
+	height: auto;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1930px){
+	#imgtv35{
+		float: none;
+		display: block;
+		margin: auto;
+}}
