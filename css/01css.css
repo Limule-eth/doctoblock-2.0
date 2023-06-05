@@ -8,7 +8,7 @@ header{
 	height: 60px;
 	width: 100%;
 	margin-top: 0px;
-	position: sticky;
+	position: fixed;
 	top: 0px;
 	z-index: 1000;
 }
@@ -219,8 +219,6 @@ aside ul li a{
 	color: black;
 }
 aside ul li a:hover{color: #D89C23}
-
-
 
 
 
