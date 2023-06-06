@@ -12,3 +12,23 @@ ul li a{
 ul li a:hover{
 	color: #D89C23;
 }
+
+#illu2{
+	float: right;
+}
+@media screen and (max-width: 500px){
+	#illu2{
+		height: 150px;
+		width: auto;
+	}}
+@media screen and (max-width: 400px){
+	#illu2{
+		height: 80px;
+		width: auto;
+	}}
+@media screen and (max-width: 290px){
+	#illu2{display: none;}}
+
+#imgmeta1{
+	float: right;
+}
