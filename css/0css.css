@@ -66,6 +66,12 @@ h3{
 @media screen and (max-width: 950px){
 	.mar{margin: 0% 3% 0% 3%}}
 
+.marfc{margin: 0% 20% 0% 20%}
+@media screen and (max-width: 1400px){
+	.marfc{margin: 0% 2% 0% 18%}}
+@media screen and (max-width: 950px){
+	.marfc{margin: 0% 3% 0% 3%}}
+
 
 /*===================================================== CHIBIS =======*/
 

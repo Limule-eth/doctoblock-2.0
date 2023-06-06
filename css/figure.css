@@ -1,0 +1,177 @@
+
+/*================================================================================================================================================================*/
+/*===================================================================================================================================================== ARBO =====*/
+.arbo1{
+	display: inline-block;
+	position: fixed;
+	top: 180px;
+	width: 18.5%;
+	margin: 0px;
+	padding: 0px 1% 0px 0.5%;
+	list-style-type: none;
+	font-size: 1.2em;
+	line-height: 1.6;
+	z-index: 1;
+}
+@media screen and (max-width: 1400px){
+	.arbo1{
+		width: 16.5%;
+		font-size: 1em;
+	}}
+@media screen and (max-width: 950px){
+	.arbo1{display: none;}}
+
+
+.arboa1{
+	text-decoration: none;
+	color: black;
+}
+.arboa1:hover{color: #D89C23}
+
+/*========================================================================================================================= 0figure.html ============================*/
+
+
+
+.gridconteneur2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 15px;
+}
+@media screen and (max-width: 950px){
+	.gridconteneur2{grid-template-columns: 1fr 1fr;}}
+
+
+.a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+.a:hover{color: #D89C23}
+@media screen and (max-width: 1400px){
+	.a{font-size: 1em;}}
+@media screen and (max-width: 950px){
+	.a{font-size: 0.9em;}}
+
+
+.elem-flex{
+	background-color: white;
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+	border-radius: 5px;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 1.2;
+}
+
+img{max-width: 100%;}
+
+.mini{max-height: 150px}
+
+/*=====================================================================================================================================================*/
+
+.bulle1{
+	background-color: transparent;
+}
+
+.cont-flex{
+	display: flex;
+	font-size: 20px;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.cont-flex-2{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.elem-flex-2g{
+	flex-basis: 47%;
+	box-sizing: border-box;
+	margin-right: 2%;
+	margin-left: 1%;
+}
+
+.elem-flex-2d{
+	flex-basis: 47%;
+	box-sizing: border-box;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+
+.center{text-align: center;
+	padding: 0px}
+
+.block{box-sizing: border-box; display: flex;}
+
+.stat{
+	background-color: rgba(216, 156, 35, 0.2);
+	margin: 0px -15px 0px -15px;
+	padding: 12px 15px 12px 15px;
+}
+
+/*================================== tasse */
+#imgtasse{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 5px;
+}
+
+/*================================== triangle */
+.w100{
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/*================================== fanion */
+.imgfanion{
+	float: right;
+	border-radius: 5px;
+	height: 295px;
+	width: autopx;
+	margin: 5px;
+}
+
+#bulleimgfanion{min-height: 305}
+
+@media screen and (max-width: 500px){
+	.imgfanion{
+		float: none;
+		display: block;
+		margin: auto;
+}}
+
+/*================================== canal */
+#imgcanal{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 5px;
+}
+
+/*================================== biseau */
+#imgbiseau{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 5px;
+}
+
+/*================================== v */
+#imgv{
+	float: right;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 5px;
+}
