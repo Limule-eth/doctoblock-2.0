@@ -1,0 +1,45 @@
+
+.homeul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+
+
+.homea1{
+	text-decoration: none; 
+	font-size: 1.7em;
+	color: #D89C23;
+}
+.homea1:hover{color: #eaba2a}
+@media screen and (max-width: 950px){
+	.homea1{
+		font-size: 1.4em;	
+			}}
+@media screen and (max-width: 450px){
+	.homea1{
+		font-size: 1.1em;	
+			}}
+
+
+
+
+
+.homea2{
+	text-decoration: none;
+	color: black;
+	padding-left: 5%;
+	font-size: 0.9em;
+}
+.homea2:hover{color: gray;}
+@media screen and (max-width: 450px){
+	.homea2{
+		font-size: 0.8em;	
+			}}
+
+
+
+
+
+
+
