@@ -69,6 +69,12 @@ img{max-width: 100%;}
 
 /*=====================================================================================================================================================*/
 
+.h2fig{
+	color: #d89c23;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
 .bulle1{
 	background-color: transparent;
 }
@@ -85,6 +91,8 @@ img{max-width: 100%;}
 	box-sizing: border-box;
 	flex-direction: row;
 }
+@media screen and (max-width: 550px){
+	.cont-flex-2{font-size: 0.8em;}}
 
 .elem-flex-2g{
 	flex-basis: 47%;
