@@ -1,0 +1,36 @@
+
+#formulaire{
+	background-color: rgba(216, 156, 35, 0.2);
+	box-shadow: 0px 0px 2px rgba(48, 48, 48, 0.5);
+	margin: 0px 10% 40px 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+
+#nom{
+	margin-left: 2%;
+}
+
+#email{
+	margin-left: 2%;
+}
+
+#text{
+	margin: 0px 2% 0px 2%;
+	width: 96%;
+	max-width: 96%;
+	height: 100px;
+}
+
+#envoyer{
+	margin-left: 2%;
+}
+
+#bullecontact{
+	margin: 0px 10% 0px 10%;
+	padding-right: 2%;
+	padding-left: 1%;
+	min-height: 200px;
+}
+
