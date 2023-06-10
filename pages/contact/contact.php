@@ -43,25 +43,56 @@
 
 		<h1>- Contact -</h1>
 
-	<p id="bullecontact">
+	<p id="bullecontactpc">    <!-- PC -->
 		<img class="chibir" src="../../chibi/repos.png" alt="personnage chibi accoudé"><br><br>
 
 	<span id="txtcontact">Le site est en pleine construction, alors si vous trouvez que certains passages sont mal expliqués, qu'il manque des informations importantes ou que vous trouvez des erreurs, n'hésitez pas à me contacter.</span></p>
 
+			<p id="bullecontacttab">    <!-- TABLETTE -->
+				<img class="chibir" src="../../chibi/repos.png" alt="personnage chibi accoudé"><br>
 
-		<form method="get" action="">			
+			<span id="txtcontact">Le site est en pleine construction, alors si vous trouvez que certains passages sont mal expliqués, qu'il manque des informations importantes ou que vous trouvez des erreurs, n'hésitez pas à me contacter.</span></p>
+
+					<p id="bullecontacttel">    <!-- TELEPHONE -->
+						<img class="chibir" src="../../chibi/repos.png" alt="personnage chibi accoudé">
+
+					<span id="txtcontact">Le site est en pleine construction, alors si vous trouvez que certains passages sont mal expliqués, qu'il manque des informations importantes ou que vous trouvez des erreurs, n'hésitez pas à me contacter.</span></p>
+
+
+		<form method="post">			
 			<p id="formulaire">				
 				<input type="text" name="nom" id="nom" placeholder="Nom" maxlength="25" size="30" required><br><br>
+							<!-- l'attribut name="nom" pourras servir a récupérer le mail dans la variable $_POST['nom'] -->
 
 				<input type="email" name="email" id="email" placeholder="e-mail" maxlength="50" size="60" required><br><br>
-				
-				<textarea type="text" name="text" id="text" placeholder="...." maxlength="2000" required></textarea><br><br>
+							<!-- l'attribut name="email" pourras servir a récupérer le mail dans la variable $_POST['email'] --> 
+
+				<input type="text" name="sujet" id="sujet" placeholder="objet" maxlength="100" size="110"><br><br>
+							<!-- l'attribut name="sujet" pourras servir a récupérer le mail dans la variable $_POST['sujet'] -->
+
+				<textarea type="text" name="message" id="text" placeholder="...." maxlength="2000" required></textarea><br><br>
+							<!-- l'attribut name="message" pourras servir a récupérer le mail dans la variable $_POST['message'] -->
 
 				<input type="submit" id="envoyer" value="Envoyer">
 			</p>
 		</form>
 	
+<?php 
+	if (isset($_POST['message'])) {
+		$message = "Ce message vous à été envoyé via la page contact de doctoblock.com
+			Nom : " . $_POST["nom"] . "
+			Objet : " . $_POST["sujet"] . "
+			E-mail : " . $_POST["email"] . "
+			Message : " . $_POST["message"];
+
+
+		$retour = mail("doctoblock@gmail.com", $_POST['sujet'], $message, "From:contact.doctoblock@ovh.com\r\nReply-to:" . $_POST['email'] );
+			if ($retour) {
+				echo "<p>L'e-mail à bien été envoyé.</p>";}}?>
+
 </main><br><br>
+
+
 
 
 <!--================================================================================================================================================================-->

@@ -237,3 +237,12 @@ aside ul li a:hover{color: #D89C23}
 	border-top: 2px solid gold;
 	position: absolute; bottom: 0px;
 }
+
+#contact{
+	display: inline-block;
+	color: black;
+	font-size: 1.2em;
+	text-align: right;
+	margin-left: 2%;
+	margin-top: 10px;
+}
