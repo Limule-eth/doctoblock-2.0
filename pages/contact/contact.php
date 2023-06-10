@@ -62,16 +62,16 @@
 		<form method="post">			
 			<p id="formulaire">				
 				<input type="text" name="nom" id="nom" placeholder="Nom" maxlength="25" size="30" required><br><br>
-							<!-- l'attribut name="nom" pourras servir a récupérer le mail dans la variable $_POST['nom'] -->
+							<!-- l'attribut name="nom" pourras servir a récupérer le nom dans la variable $_POST['nom'] -->
 
 				<input type="email" name="email" id="email" placeholder="e-mail" maxlength="50" size="60" required><br><br>
 							<!-- l'attribut name="email" pourras servir a récupérer le mail dans la variable $_POST['email'] --> 
 
 				<input type="text" name="sujet" id="sujet" placeholder="objet" maxlength="100" size="110"><br><br>
-							<!-- l'attribut name="sujet" pourras servir a récupérer le mail dans la variable $_POST['sujet'] -->
+							<!-- l'attribut name="sujet" pourras servir a récupérer l'objet dans la variable $_POST['sujet'] -->
 
 				<textarea type="text" name="message" id="text" placeholder="...." maxlength="2000" required></textarea><br><br>
-							<!-- l'attribut name="message" pourras servir a récupérer le mail dans la variable $_POST['message'] -->
+							<!-- l'attribut name="message" pourras servir a récupérer le message dans la variable $_POST['message'] -->
 
 				<input type="submit" id="envoyer" value="Envoyer">
 			</p>
