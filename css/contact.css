@@ -74,7 +74,7 @@
 	#bullecontacttel{ font-size:0.8em }}
 
 
-#conf{
+#conf{           /* mise en page de "l'e-mail à bien été envoyé."*/
 	display: block;
 	background-color: rgba(0, 204, 102, 0.3);
 	border: 1px solid #00cc66 ;
@@ -82,4 +82,6 @@
 	text-align: center;
 	margin: auto;
 }
+
+
 

@@ -88,7 +88,7 @@
 
 		$retour = mail("doctoblock@gmail.com", $_POST['sujet'], $message, "From:contact.doctoblock@ovh.com\r\nReply-to:" . $_POST['email'] );
 			if ($retour) {
-				echo "<p>L'e-mail à bien été envoyé.</p>";}}?>
+				echo "<p style='display: block; background-color: rgba(0, 204, 102, 0.3); border: 1px solid #00cc66 ; padding: 5px; text-align: center; margin: auto;'>L'e-mail à bien été envoyé.</p>";}}?>
 
 </main><br><br>
 
